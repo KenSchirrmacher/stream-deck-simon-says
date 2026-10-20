@@ -8,7 +8,10 @@
   "Category": "Simon Says",
   "CategoryIcon": "imgs/plugin/category-icon",
   "CodePath": "bin/plugin.js",
-  "DefaultWindowSize": [420, 420],
+  "DefaultWindowSize": [
+    420,
+    420
+  ],
   "UUID": "com.homedeck.simonsays",
   "SDKVersion": 3,
   "Software": {
@@ -19,8 +22,14 @@
     "Debug": "enabled"
   },
   "OS": [
-    { "Platform": "windows", "MinimumVersion": "10" },
-    { "Platform": "mac", "MinimumVersion": "10.15" }
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    },
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.15"
+    }
   ],
   "Actions": [
     {
@@ -28,8 +37,15 @@
       "UUID": "com.homedeck.simonsays.pad",
       "Icon": "imgs/actions/pad/icon",
       "Tooltip": "One pad in the pattern-memory game. Place it on every key of a folder page and watch the sequence play across all of them.",
-      "Controllers": ["Keypad"],
-      "States": [{ "Image": "imgs/actions/pad/icon", "ShowTitle": false }]
+      "Controllers": [
+        "Keypad"
+      ],
+      "States": [
+        {
+          "Image": "imgs/actions/pad/icon",
+          "ShowTitle": false
+        }
+      ]
     }
   ]
 }
